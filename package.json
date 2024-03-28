@@ -1,0 +1,23 @@
+{
+  "name": "hmcsoapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hmcpoc.js",
+  "scripts": {
+    "start": "node hmcpoc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "sap-cf-axios": "^0.2.35",
+    "utf8": "^3.0.0"
+  },
+  "engines": {
+    "npm": "^8.5"
+  }
+}

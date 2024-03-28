@@ -1,0 +1,36 @@
+{
+	"VCAP_SERVICES": {
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "default_destination",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "04483de4-08c5-44f1-926d-b7b76938106b",
+				"instance_name": "default_destination",
+				"binding_guid": "bfade66b-f83f-4fec-b7f6-c7923d3a596b",
+				"binding_name": null,
+				"credentials": {
+					"uaadomain": "authentication.ap12.hana.ondemand.com",
+					"tenantmode": "dedicated",
+					"clientid": "sb-clone04483de408c544f1926db7b76938106b!b169|destination-xsappname!b7",
+					"instanceid": "04483de4-08c5-44f1-926d-b7b76938106b",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAinTzkio8b668Unm7pxRfpH8vI+rAgnci1BTCtLITwPhIMOZffNqUtAGFrj9cGX1AxJ1xbXdsurL6UsIpGs0729xgNWnYCATKFrV3KslsuZdxCSJXdeoAFVL15nYb2EH9uMHVc5Xm5sAYaqAMv/oyEzrvfM+/Awedsw/gv+SS3KcrLMNn1Zki89Dbuc+30UlGXGejM09n4SpqOT/AQzsFu/B12x8xld3VzytRvwN9dtV8zmC+b6NIr4vcLBqAleQQnh8qJLgawGi5/OkrwaypVec/eYJQnyijNsSHLU4hMAYmWUOPNTWDgFXwISFCpXieQ41Xk1adp9kvJ4s4w/KB/QIDAQAB-----END PUBLIC KEY-----",
+					"xsappname": "clone04483de408c544f1926db7b76938106b!b169|destination-xsappname!b7",
+					"identityzone": "pockr",
+					"clientsecret": "bfade66b-f83f-4fec-b7f6-c7923d3a596b$NzUdHPSWCJYQvQ5OBsErr18Vb09nlk5FjJAIkL7xXZ8=",
+					"tenantid": "c0527d4c-e5f2-4ab8-84a8-a1893eab8394",
+					"uri": "https://destination-configuration.cfapps.ap12.hana.ondemand.com",
+					"url": "https://pockr.authentication.ap12.hana.ondemand.com"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+}
